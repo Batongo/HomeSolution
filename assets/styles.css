@@ -1,0 +1,1510 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./media/background.jpg);
+    background-attachment: fixed;
+}
+.navbar{
+    padding: .7em;
+    font-family: 'Alegreya', serif;
+}
+.navbar-nav li{
+    padding-right:72px;
+}
+.nav-link{
+    font-size:1.2rem;
+    font-weight:500;
+}
+nav p{
+    font-size:1.3rem;
+    font-weight:500;
+    padding-top: .7em;
+    cursor: pointer;
+    font-family: 'Alegreya', serif;
+}
+.services{
+    margin-top: 1rem; 
+    flex-basis: 50%; 
+    padding: 1rem;
+}
+.servicestitles{
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35rem;
+    font-family: 'Alegreya', serif;
+}
+.text-services{
+    margin-top: 3rem;
+    font-family: 'Alegreya', serif;
+}
+#headset{
+    width: 4%;
+    height: 4%;
+    size: 15em;
+}
+.navbar img{
+    width: 3%;
+    height: 3%;
+}
+span{
+    color: rgb(3, 199, 3);
+}
+.navbar-nav a:hover{
+    color: rgb(3, 199, 3) !important;
+    text-decoration: underline;
+}
+.carousel-inner img{
+    width:100%;
+    height:100%;
+    opacity: 0.9;     
+}
+.carousel-caption{
+    position:absolute;
+    top:60%;
+    transform: translateY(-70%);
+    font-family: 'Alegreya', serif;
+}
+.carousel-caption h2, h3, h4{
+    font-size:300%;
+    text-shadow: 1px 1.5px 15px #000000dc; 
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    font-family: 'Alegreya', serif;
+}
+
+.left p{
+    font-size: 15px;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right h2, h1, p{
+    font-family: 'Nunito', sans-serif;
+    margin-left: 7px;
+    margin-top: 200px;
+}
+.banner{
+    display: flex;
+    background-image: url(./media/background.jpg);
+    height: fit-content;
+    width: fit-content;
+    
+}
+.center1{
+    text-align: center;
+    font-family: 'Alegreya', serif;
+}
+.right p{
+    font-family: 'Alegreya', serif;
+}
+.left img{
+    width:90%;
+    height: 50%;
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.imgs{
+    position: relative;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.dropdown{
+    margin-top: 40px;
+    margin-top: 2.5rem;
+    margin-right: 4rem;
+} 
+footer{
+    padding-left: 5px;
+    font-size: larger;
+    background-color: rgb(230, 230, 230); 
+    font-family: 'Alegreya', serif;
+}
+.form-control{
+    margin-top: 5px;
+}
+.center1212{
+    text-align: center;
+}
+.last1212{
+    text-align: center;
+}
+.another-left{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+}
+.cont{
+    margin-left: 5px;
+    font-size: 1.3rem;
+}
+.home1{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+.days{
+    font-size:2rem;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.map-responsive{
+    overflow: hidden;
+    padding-bottom:56.5%;
+    position:relative;
+    height:0;
+    top: 4rem;
+    margin-bottom:11rem;
+}
+.map-responsive iframe{
+    left:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+} 
+.container-fluid{
+    font-family: 'Alegreya', serif;
+    margin-top: 5rem;
+}
+
+
+/*i know this looks awful, but it was my first steps so */
+
+@media (min-width: 1800px){
+ .carousel-caption{
+    top:60%;
+}
+.carousel-caption h4{
+    font-size:310%;
+}
+.carousel-caption h3{
+    font-size:210%;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.nav-link{
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+}
+nav p {
+    font-size: 2rem;
+}
+#headset{
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+.headset{
+    font-size: 1.3rem;
+}
+.servicestitles{
+    margin-left: 54rem;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+#dropdownMenuButton{
+    width: 68%;
+    height: 55%;
+    font-size: 1rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+ }
+ .right{
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.imgs{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 1rem;
+    height: 100px;
+    width: 100px;
+}
+.left img{
+    margin-top: 20rem;
+}
+  .dropdown{
+        margin-top: 2rem
+     }
+     .btn.btn-dark{
+        font-size: 1.6rem;
+     }
+     .btn.btn-success{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 1.3rem;      
+     }
+     .form-group{
+        font-size: 1.7rem;
+    }
+     .container-fluid{
+         font-size: 2rem;
+     }
+     .center1212{
+         font-size: 1.8rem;
+     }
+     .cont{
+         font-size: 1.5rem;
+     }
+     .days h6{
+         font-size: 1.5rem;
+     }
+     .text-services{
+         font-size: 1.4rem;
+     }
+}
+    @media (max-width: 1799px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            font-size: 1.8rem;
+            margin-top: 0.5rem;
+        }
+        nav p {
+            font-size: 2rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.3rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 46rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        #dropdownMenuButton{
+            width: 68%;
+            height: 55%;
+            font-size: 1rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+        .imgs{
+            height: fit-content;
+            width: fit-content;
+            margin-left: 1rem;
+            height: 100px;
+            width: 100px;
+        }
+        .left img{
+            margin-top: 20rem;
+        }
+          .dropdown{
+                margin-top: 2rem
+             }
+             .btn.btn-dark{
+                font-size: 1.6rem;
+             }
+             .btn.btn-success{
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+            ::-webkit-input-placeholder {
+                font-size: 1.3rem;      
+             }
+             .form-group{
+                font-size: 1.7rem;
+            }
+             .container-fluid{
+                 font-size: 2rem;
+             }
+             .center1212{
+                 font-size: 1.8rem;
+             }
+             .cont{
+                 font-size: 1.5rem;
+             }
+             .days h6{
+                 font-size: 1.5rem;
+             }
+             .text-services{
+                 font-size: 1.4rem;
+             }
+    }
+    @media (max-width: 1701px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            font-size: 1.8rem;
+            margin-top: 0.5rem;
+        }
+        nav p {
+            font-size: 2rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.3rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 46rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        #dropdownMenuButton{
+            width: 68%;
+            height: 55%;
+            font-size: 1rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+        .imgs{
+            height: fit-content;
+            width: fit-content;
+            margin-left: 1rem;
+            height: 100px;
+            width: 100px;
+        }
+        .left img{
+            margin-top: 20rem;
+        }
+          .dropdown{
+                margin-top: 2rem
+             }
+             .btn.btn-dark{
+                font-size: 1.6rem;
+             }
+             .btn.btn-success{
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+            ::-webkit-input-placeholder {
+                font-size: 1.3rem;      
+             }
+             .form-group{
+                font-size: 1.7rem;
+            }
+             .container-fluid{
+                 font-size: 2rem;
+             }
+             .center1212{
+                 font-size: 1.8rem;
+             }
+             .cont{
+                 font-size: 1.5rem;
+             }
+             .days h6{
+                 font-size: 1.5rem;
+             }
+             .text-services{
+                 font-size: 1.3rem;
+             }
+    }
+    @media (max-width: 1601px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            font-size: 1.8rem;
+            margin-top: 0.5rem;
+        }
+        nav p {
+            font-size: 2rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.3rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 43rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        #dropdownMenuButton{
+            width: 68%;
+            height: 55%;
+            font-size: 1rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+        .imgs{
+            height: fit-content;
+            width: fit-content;
+            margin-left: 1rem;
+            height: 100px;
+            width: 100px;
+        }
+        .left img{
+            margin-top: 20rem;
+        }
+          .dropdown{
+                margin-top: 2rem
+             }
+             .btn.btn-dark{
+                font-size: 1.6rem;
+             }
+             .btn.btn-success{
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+            ::-webkit-input-placeholder {
+                font-size: 1.3rem;      
+             }
+             .form-group{
+                font-size: 1.7rem;
+            }
+             .container-fluid{
+                 font-size: 2rem;
+             }
+             .center1212{
+                 font-size: 1.8rem;
+             }
+             .cont{
+                 font-size: 1.5rem;
+             }
+             .days h6{
+                 font-size: 1.5rem;
+             }
+             .text-services{
+                 font-size: 1.3rem;
+             }
+    }
+    @media (max-width: 1501px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            font-size: 1.8rem;
+            margin-top: 0.5rem;
+        }
+        nav p {
+            font-size: 2rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.3rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 39rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        #dropdownMenuButton{
+            width: 68%;
+            height: 55%;
+            font-size: 1rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+            font-size: 1.4rem;
+            padding: 1rem;
+        }
+        .imgs{
+            height: fit-content;
+            width: fit-content;
+            margin-left: 1rem;
+            height: 100px;
+            width: 100px;
+        }
+        .left img{
+            margin-top: 20rem;
+        }
+          .dropdown{
+                margin-top: 2rem
+             }
+             .btn.btn-dark{
+                font-size: 1.6rem;
+             }
+             .btn.btn-success{
+                font-size: 1.5rem;
+                margin-left: 2rem;
+            }
+            ::-webkit-input-placeholder {
+                font-size: 1.3rem;      
+             }
+             .form-group{
+                font-size: 1.7rem;
+            }
+             .container-fluid{
+                 font-size: 2rem;
+             }
+             .center1212{
+                 font-size: 1.8rem;
+             }
+             .cont{
+                 font-size: 1.5rem;
+             }
+             .days h6{
+                 font-size: 1.5rem;
+             }
+             .text-services{
+                 font-size: 1.3rem;
+             }
+    }
+   @media (max-width: 1401px){
+    .carousel-caption{
+        top:50%;
+    }
+    .carousel-caption h4{
+        font-size:240%;
+    }
+    .carousel-caption h3{
+        font-size:160%;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+    .nav-link{
+        font-size: 1.8rem;
+        margin-top: 0.5rem;
+    }
+    nav p {
+        font-size: 2rem;
+    }
+    #headset{
+        margin-right: 1rem;
+        font-size: 1.3rem;
+    }
+    .headset{
+        font-size: 1.3rem;
+    }
+    .servicestitles{
+        margin-left: 37rem;
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    #dropdownMenuButton{
+        width: 68%;
+        height: 55%;
+        font-size: 1rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+     }
+     .right{
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+    .imgs{
+        height: fit-content;
+        width: fit-content;
+        margin-left: 13rem;
+        height: 100px;
+        width: 100px;
+    }
+    .left img{
+        margin-top: 20rem;
+    }
+    .text-services{
+        margin-left: 20rem;
+    }
+    .dropdown{
+        margin-top: 2rem
+    }
+    .btn.btn-dark{
+        font-size: 1.6rem;
+    }
+    .btn.btn-success{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+        ::-webkit-input-placeholder {
+        font-size: 1.3rem;      
+    }
+        .form-group{
+        font-size: 1.7rem;
+    }
+         .container-fluid{
+        font-size: 2rem;
+    }
+        .center1212{
+        font-size: 1.8rem;
+    }
+         .cont{
+        font-size: 1.5rem;
+    }
+         .days h6{
+        font-size: 1.5rem;
+    }
+   }
+    @media (max-width: 1301px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            margin-top: 0.4rem;
+            font-size: 1.5rem;
+        }
+        nav p {
+            font-size: 1.6rem;
+            margin-top: 0.9rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.4rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 35rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1.5rem;            
+        }
+        #dropdownMenuButton{
+            width: 65%;
+            height: 65%;
+            font-size: 1rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+             font-size: 1.4rem;
+             padding: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 15rem;
+             height: 90px;
+             width: 90px;
+         }
+         .left img{
+             margin-top: 20rem;
+         }
+         
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1.6rem;
+         }
+         .btn.btn-success{
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 18rem;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 1.3rem;      
+         }
+         .form-group{
+            font-size: 1.7rem;
+        }
+         .container-fluid{
+             font-size: 2rem;
+         }
+         .center1212{
+             font-size: 1.8rem;
+         }
+         .cont{
+             font-size: 1.5rem;
+         }
+         .days h6{
+             font-size: 1.5rem;
+         }
+
+    }
+    @media (max-width: 1201px){
+        .carousel-caption{
+            top:50%;
+        }
+        .carousel-caption h4{
+            font-size:240%;
+        }
+        .carousel-caption h3{
+            font-size:160%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .nav-link{
+            margin-top: 0.4rem;
+            font-size: 1.5rem;
+        }
+        nav p {
+            font-size: 1.6rem;
+            margin-top: 0.9rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.4rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .servicestitles{
+            margin-left: 31rem;
+            font-size: 2.5rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1.5rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .right{
+             font-size: 1.3rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 12rem;
+             height: 100px;
+             width: 100px;
+         }
+        
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1.6rem;
+         }
+         .btn.btn-success{
+            font-size: 1.5rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 12rem;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 1.55rem;      
+         }
+         .container-fluid{
+             font-size: 2rem;
+         }
+         .center1212{
+             font-size: 2.3rem;
+         }
+         .cont{
+             font-size: 1.5rem;
+         }
+         .days h6{
+             font-size: 1.5rem;
+         }
+        
+    }
+
+    @media (max-width: 1199px){
+        .carousel-caption{
+            top:45%;
+        }
+        .carousel-caption h4{
+            font-size:170%;
+        }
+        .carousel-caption h3{
+            font-size:130%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 120%;
+            padding: 1.5rem;
+            margin-top: -5rem;
+        }
+        .center1{
+            font-size: 140%;
+        }
+        .nav-link{
+            margin-top: 0.4rem;
+            font-size: 1.5rem;
+        }
+        nav p {
+            font-size: 1.6rem;
+            margin-top: 0.9rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1.4rem;
+        }
+        .headset{
+            font-size: 1.3rem;
+        }
+        .left img{
+            width: 95%;
+            height: 45%;
+            margin-left: 1rem;
+            margin-top: 15rem;
+        }
+        .servicestitles{
+            margin-left: 32rem;
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1.3rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 12rem;
+             height: 60px;
+             width: 60px;
+         }
+         #dropdownMenuButton{
+            width: 65%;
+            height: 65%;
+            font-size: 0.9rem; 
+         }
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1rem;
+         }
+         .btn.btn-success{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 18rem;
+            font-size: 1rem;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 1.2rem;      
+         }
+         .form-group{
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 1019px){
+        .carousel-caption{
+            top:45%;
+        }
+        .carousel-caption h4{
+            font-size:170%;
+        }
+        .carousel-caption h3{
+            font-size:130%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 120%;
+            padding: 1.5rem;
+            margin-top: -5rem;
+        }
+        .center1{
+            font-size: 140%;
+        }
+        .nav-link{
+            margin-top: 0.4rem;
+            font-size: 1rem;
+        }
+        nav p {
+            font-size: 0.8rem;
+            margin-top: 0.9rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+        .headset{
+            font-size: 0.7rem;
+        }
+        .left img{
+            width: 95%;
+            height: 45%;
+            margin-left: 1rem;
+            margin-top: 15rem;
+        }
+        .servicestitles{
+            margin-left: 27rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1.3rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 7rem;
+             height: 60px;
+             width: 60px;
+         }
+         #dropdownMenuButton{
+            width: 65%;
+            height: 65%;
+            font-size: 0.9rem; 
+         }
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1rem;
+         }
+         .btn.btn-success{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 12rem;
+            font-size: 1rem;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 1.2rem;      
+         }
+         .form-group{
+            font-size: 1.4rem;
+        }
+    }
+    @media (max-width: 948px){
+        .carousel-caption{
+            top:45%;
+        }
+        .carousel-caption h4{
+            font-size:170%;
+        }
+        .carousel-caption h3{
+            font-size:130%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 120%;
+            padding: 1.5rem;
+            margin-top: -5rem;
+        }
+        .center1{
+            font-size: 140%;
+        }
+        .nav-link{
+            margin-top: 0.4rem;
+            font-size: 1rem;
+        }
+        nav p {
+            font-size: 0.8rem;
+            margin-top: 0.9rem;
+        }
+        #headset{
+            margin-right: 1rem;
+            font-size: 1rem;
+        }
+        .headset{
+            font-size: 0.7rem;
+        }
+        .left img{
+            width: 95%;
+            height: 45%;
+            margin-left: 1rem;
+            margin-top: 15rem;
+        }
+        .servicestitles{
+            margin-left: 27rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1.3rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 7rem;
+             height: 60px;
+             width: 60px;
+         }
+         #dropdownMenuButton{
+            width: 65%;
+            height: 65%;
+            font-size: 0.9rem; 
+         }
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1rem;
+         }
+         .btn.btn-success{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 12rem;
+            font-size: 1rem;
+        }
+        ::-webkit-input-placeholder {
+            font-size: 1.2rem;      
+         }
+         .form-group{
+            font-size: 1.4rem;
+        }
+    }
+
+    @media (max-width: 768px){
+        .carousel-caption{
+            top:45%;
+        }
+        .carousel-caption h4{
+            font-size:170%;
+        }
+        .carousel-caption h3{
+            font-size:130%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 70%;
+        }
+        .center1{
+            font-size: 100%;
+        }
+        .nav-link{
+            margin-top: 1.7rem;
+        }
+        .left img{
+            width: 90%;
+            height: 40%;
+            margin-left: 1rem;
+            margin-top: 12rem;
+        }
+        .servicestitles{
+            margin-left: 19rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 3rem;
+             height: 60px;
+             width: 60px;
+         }
+         #dropdownMenuButton{
+            width: 65%;
+            height: 65%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .dropdown{
+            margin-top: 2rem
+         }
+         .btn.btn-dark{
+            font-size: 1rem;
+         }
+         .btn.btn-success{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 4rem;
+            font-size: 1rem;
+        }
+        
+    }
+    @media (max-width: 680px){
+        
+        .carousel-caption{
+            top:40%;
+        }
+        .carousel-caption h4{
+            font-size:120%;
+        }
+        .carousel-caption h3{
+            font-size:100%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 60%;
+        }
+        .center1{
+            font-size: 220%;
+        }
+        .left img{
+            width: 90%;
+            height: 40%;
+            margin-left: 1rem;
+            margin-top: 12rem;
+        }
+        .servicestitles{
+            margin-left: 17rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1rem;            
+        }
+        #dropdownMenuButton{
+            width: 55%;
+            height: 55%;
+            font-size: 0.5rem;
+            margin-right: 3rem;
+            margin-top: 1rem;
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: 4rem;
+             height: 60px;
+             width: 60px;
+         }
+         #dropdownMenuButton{
+            width: 60%;
+            height: 60%;
+            font-size: 0.6rem !important;   
+            margin-left: -0.5rem;
+         }
+         .dropdown{
+            margin-top: 2.5rem
+         }
+         .btn.btn-dark{
+            font-size: 1rem;
+         }
+         .btn.btn-success{
+            font-size: 1rem;
+            margin-left: 2rem;
+        }
+        .text-services{
+            margin-left: 4rem;
+            font-size: 0.9rem;
+        }
+    }
+    
+    @media (max-width: 576px){
+        .carousel-caption{
+            top:40%;
+        }
+        .carousel-caption h4{
+            font-size:120%;
+        }
+        .carousel-caption h3{
+            font-size:80%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 60%;
+        }
+        .center1{
+            font-size: 100%;
+        }
+        .left img{
+            width: 90%;
+            height: 35%;
+            margin-left: 1.5rem;
+            margin-top: 14rem;
+        }
+        .servicestitles{
+            margin-left: 14rem;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 1rem;            
+        }
+        .text-services{
+            font-size: 0.7rem;
+            margin-left: 3rem;
+        }
+        #dropdownMenuButton{
+            width: 60%;
+            height: 60%;
+            font-size: 0.5rem !important;   
+            margin-left: 0.5rem;
+         }
+         .dropdown{
+            margin-top: 2.5rem
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;             
+             height: 40px;
+             width: 40px;
+             margin-top: 3rem;
+             margin-left: 2rem;
+         }
+         .btn.btn-dark{
+            font-size: 0.5rem;
+         }
+         .btn.btn-success{
+            font-size: 0.6rem;
+        }
+        .center1212{
+            font-size: 1.3rem;
+        }
+        
+    }
+    
+    @media (max-width: 480px){
+        .carousel-caption{
+            top:35%;
+        }
+        .carousel-caption h4{
+            font-size:50%;
+        }
+        .carousel-caption h3{
+            font-size:60%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 70%;
+        }
+        .center1{
+            font-size: 120%;
+        }
+        .left img{
+            width: 90%;
+            height: 30%;
+            margin-left: 1rem;
+            margin-top: 14rem;
+        }
+        footer{
+            font-size: 70%;
+        }
+        .center1212{
+            font-size: 150%;
+        }
+        .navbar img{
+            width: 7%;
+            height: 7%;
+        }
+        .servicestitles{
+            margin-left: 9rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 0.9rem;            
+        }
+        #dropdownMenuButton{
+            width: 50%;
+            height: 50%;
+            font-size: 0.5rem !important;   
+            margin-left: -0.5rem;
+         }
+         .dropdown{
+            margin-top: 2.5rem
+         }
+         .imgs{
+             height: fit-content;
+             width: fit-content;
+             margin-left: -1.6rem;
+             height: 40px;
+             width: 40px;
+         }
+         .btn.btn-dark{
+            font-size: 0.1rem;
+         }
+         .btn.btn-success{
+            font-size: 0.6rem;
+            margin-left: 0.8rem;
+        }
+        .text-services{
+            margin-left: 0.1rem;
+            font-size: 1rem !important;
+        }
+        .container-fluid{
+            font-size: 1.4rem;
+        }
+        .center1212{
+            font-size: 1.3rem;
+        }
+        .cont{
+            font-size: 1.3rem;
+        }
+        .days h6{
+            font-size: 1.2rem;
+        }
+        ::-webkit-input-placeholder {
+           font-size: 1rem;      
+        }
+        
+    }
+    @media (max-width: 375px){
+        .carousel-caption{
+            top:33%;
+        }
+        .carousel-caption h4{
+            font-size:70%;
+        }
+        .carousel-caption h3{
+            font-size:60%;
+            padding-top:1rem;
+            padding-bottom:1rem;
+        }
+        .right{
+            font-size: 60%;
+        }
+        .center1{
+            font-size: 120%;
+        }
+        .left img{
+            width: 70%;
+            height: 35%;
+            margin-left: 1.5rem;
+            margin-top: 14rem;
+        }
+        footer{
+            font-size: 70%;
+        }
+        .center1212{
+            font-size: 45%;
+        }
+        .navbar img{
+            width: 7%;
+            height: 7%;
+        }
+        .servicestitles{
+            margin-left: 9rem;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+        }
+        .services{
+            font-size: 0.9rem;  
+            column-count: 1;     
+        }
+        #dropdownMenuButton{
+            width: 50%;
+            height: 50%;
+            font-size: 0.5rem !important;   
+            margin-left: -0.5rem;
+         }
+         .dropdown{
+            margin-top: 3rem
+         }
+         .imgs{
+             height: 40px;
+             width: 40px;
+         }
+         .btn.btn-dark{
+            font-size: 0.7rem;
+            }
+        .btn.btn-success{
+            font-size: 0.5rem;
+            margin-left: 0.8rem;
+        }
+        .text-services{
+            margin-left: 0.5rem;
+        }
+        .container-fluid{
+             font-size: 1rem;
+         }
+         .center1212{
+             font-size: 1.3rem;
+         }
+         .cont{
+             font-size: 1rem;
+         }
+         .days h6{
+             font-size: 1rem;
+         }
+         ::-webkit-input-placeholder {
+            font-size: 1rem;      
+         }
+    }
